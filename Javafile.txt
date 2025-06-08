@@ -1,0 +1,30 @@
+// This is a single-line comment
+
+/*
+  This is a multi-line comment.
+  You can write multiple lines of comments like this.
+*/
+
+// Declaring variables
+let message = "Hello, World!";
+const PI = 3.14159;
+
+// Function to display a message
+function greet(name) {
+  console.log(message + " " + name + "!");
+}
+
+// Calling the function
+greet("User");
+
+// Conditional statement
+if (PI > 3) {
+  console.log("PI is greater than 3");
+} else {
+  console.log("PI is not greater than 3");
+}
+
+// Loop
+for (let i = 0; i < 5; i++) {
+  console.log("Number: " + i);
+}
